@@ -421,7 +421,6 @@ setInterval(function () {
   if (alive) {
     update();
     draw();
-    requestAnimationFrame(loop);
   } else {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font = "30px Arial";
